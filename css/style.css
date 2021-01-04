@@ -1,9 +1,16 @@
 body {
 
     background-image: url(../assets/bgimage.png);
+    
+    width: auto;
 }
 
 .bg-cover {
 
  background: white center center;
+}
+
+.cont-size {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
