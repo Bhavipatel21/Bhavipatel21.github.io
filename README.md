@@ -58,12 +58,31 @@ Navigate to url : https://bhavipatel21.github.io/
 
 The following image shows the web application's appearance and functionality: 
 
+## Helpful Links
+
+* [Bootstrap Official Docs](https://getbootstrap.com/)
+* [Bootstrap Components](https://getbootstrap.com/docs/4.3/components/alerts/)
+* [GitHub Pages](https://pages.github.com/)
+* [Fontawesome](https://fontawesome.com/)
 
 
-```md
-![alt text](assets/)
-```
 ## Test Cases 
+
+* Verify application deployed successfully
+
+* Verify Navbar shows cosistent on each page
+
+* Verify Navbar on each page must contains links to Home/About, Contact, and Portfolio pages.
+
+* Verify all links on web page works
+
+* Verify the view source code shows semantic HTML elements
+
+* Verify each page has correct HTMl using validation service
+
+* Verify Bootstrap components ,classes and grid system utilized 
+
+
 
 
 
