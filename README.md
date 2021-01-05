@@ -56,7 +56,8 @@ Navigate to url : https://bhavipatel21.github.io/
 
 ## Usage 
 
-The following image shows the web application's appearance and functionality: 
+
+
 
 ## Helpful Links
 
