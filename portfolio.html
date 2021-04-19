@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
+
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,7 @@
 
 <body class="d-flex flex-column min-vh-100" style="background-image: url(assets/bgimage.png); width: auto;">
 
-<!--navbar-->
+    <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border fixed-top">
         <section class="container">
             <a class="d-flex navbar-brand fs-2 fw-bold bg-info p-2" href="index.html"> Bhavika Patel</a>
@@ -36,7 +37,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-           
+
             <!--collapsible content-->
             <section class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -52,62 +53,96 @@
                         <a class="nav-link" aria-current="page" href="index.html">About</a>
                     </li>
                 </ul>
-             
+
             </section>
-         
+
         </section>
-       
+
 
     </nav>
-   
+
 
     <!--main layout-->
     <main style="flex: 1 1 auto;" class="container-fluid flex-fill">
 
         <section class="container pb-3" style="margin-top:10px; margin-bottom: 90px; background:white center center;">
-          <!--row 1-->
-          <section class="row m-3 p-3">
-            <section class="col-sm-9">
-                <h1 class="display-5 text-info">Portfolio</h1>
+            <!--row 1-->
+            <section class="row m-3 p-3">
+                <section class="col-sm-9">
+                    <h1 class="display-5 text-info">Portfolio</h1>
+                </section>
             </section>
-        </section>
-        <hr>
+            <hr>
 
             <section class="row row-cols-1 row-cols-md-2 g-4">
-               
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
-                <section class="col">
-                    <img class="profile-img img-thumbnail" src="assets/tester_image.jpg" alt="my profile picture" />
-                </section>
 
-
+                <section class="col">
+                    <div class="card" style="width: 30rem; height:30rem;">
+                        <img src="./assets/theMealMentor.jpg" class="card-img-top" alt="theMealMentor login page image"
+                            style="height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">The Meal Mentor</h5>
+                            <p class="card-text">Application which can help user to calculate
+                                nutritional information about food and can assist in meal planning.</p>
+                            <a href="https://github.com/Bhavipatel21/the_meal_mentor" class="btn btn-info">Github</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="card" style="width: 30rem;height:30rem;">
+                        <img src="./assets/weatherDashboard.jpg" class="card-img-top"
+                            alt="weatherDashboard homepage image" style="height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">Weather outlook for multiple cities.</p>
+                            <a href="https://github.com/Bhavipatel21/weatherDashboard" class="btn btn-info">Weather
+                                Dashboard</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card" style="width: 30rem;">
+                            <img src="./assets/workDayScheduler.jpg" class="card-img-top" alt="workDayScheduler image"
+                                style="height: 300px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Work Day Scheduler</h5>
+                                <p class="card-text">Create a simple calendar application that allows a user to save
+                                    events for each hour of the day.
+                                    This app will run in the browser and feature dynamically updated HTML and CSS
+                                    powered by jQuery.</p>
+                                <a href="https://github.com/Bhavipatel21/workDayScheduler" class="btn btn-info">WorkDay
+                                    Scheduler</a>
+                            </div>
+                        </div>
+                </section>
+                <section class="col">
+                    <div class="card" style="width: 30rem">
+                        <div class="card" style="width: 30rem;">
+                            <img src="./assets/codingQuiz.jpg" class="card-img-top" alt="codingQuiz homepage image"
+                                style="height: 300px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding-Quiz</h5>
+                                <p class="card-text">A simple coding quiz build using javascript.</p>
+                                <a href="https://github.com/Bhavipatel21/Code-Quiz" class="btn btn-info">Code-Quiz</a>
+                            </div>
+                        </div>
+                </section>
             </section>
-       </section>
+        </section>
 
 
     </main>
 
     <footer class="container-fluid fixed-bottom bg-secondary border-top border-info border-3">
         <nav class="navbar bg-secondary">
-                         <section class="mx-auto">
-                        <a class="link-dark p-2" href="https://www.linkedin.com/in/bhavika-patel-73369a92" target="_blank" ><i class="fab fa-linkedin fa-2x" ></i></a> 
-                        <a class="link-dark p-2" href="https://github.com/Bhavipatel21" target="_blank"><i class="fab fa-github fa-2x"></i></a> 
-                    </section>
-                    </nav>
+            <section class="mx-auto">
+                <a class="link-dark p-2" href="https://www.linkedin.com/in/bhavika-patel-73369a92" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a class="link-dark p-2" href="https://github.com/Bhavipatel21" target="_blank"><i
+                        class="fab fa-github fa-2x"></i></a>
+            </section>
+        </nav>
     </footer>
 
 
